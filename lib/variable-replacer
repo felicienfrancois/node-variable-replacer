@@ -18,5 +18,6 @@ require('./variable-replacer.js')({
 	source: argv["_"].slice(0, argv["_"].length - 1),
 	dest: argv["_"][argv["_"].length - 1],
 	dataSource: argv["data"],
-	inlineData: inlineData
+	inlineData: inlineData,
+	loglevel: argv["loglevel"]
 });

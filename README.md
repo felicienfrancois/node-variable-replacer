@@ -71,9 +71,9 @@ Type: Object
 
 Inline source of data for variable replacement
 
-#### options.verbose
+#### options.loglevel
 Optional
-Type: boolean
+Default: info
+Type: "debug", "info", "warn", "error", "none"
 
-Print log messages to console
-
+Change logging level
