@@ -71,4 +71,9 @@ Type: Object
 
 Inline source of data for variable replacement
 
+#### options.verbose
+Optional
+Type: boolean
+
+Print log messages to console
 
