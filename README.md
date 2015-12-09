@@ -12,6 +12,8 @@ the value of var1 variable is: %var1%
 the value of the key1 attr of var2 is %var2.key1%
 ```
 
+Replace with values from either inline data or json file(s).
+
 ### Usage
 
 ##### Command line
@@ -76,10 +78,10 @@ Optional
 Type: String or RegExp
 
 The [Regular Expresssion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) used to match variables.
-The first group must be the variable path.
+The first group must return the variable path.
 Defaults to `/%([\w._-]+)%/g`
 
-#### options.loglevel
+#### options.logLevel
 Optional
 Default: info
 Type: "debug", "info", "warn", "error", "none"
