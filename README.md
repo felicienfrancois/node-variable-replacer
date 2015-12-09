@@ -87,3 +87,15 @@ Default: info
 Type: "debug", "info", "warn", "error", "none"
 
 Change logging level
+
+
+## Contributing
+
+Pull requests are welcome
+
+
+## TODO
+
+- Add support for inline input and output
+- Add support for reusable replacer
+- Improve error handling and logging
