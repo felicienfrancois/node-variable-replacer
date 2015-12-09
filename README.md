@@ -48,20 +48,20 @@ require('variable-replacer')({
 
 #### options.source (Mandatory)
 Mandatory
-Type: string or array of string
+Type: String or array of String
 Note: glob pattern supported
 
 Files to process (input files)
 
 #### options.dest
 Mandatory
-Type: string
+Type: String
 
 Destination file or directory, where output file will be written.
 
 #### options.dataSource
 Optional
-Type: string or array of string
+Type: String or array of String
 
 Path(s) of json file(s) containing source of data for variable replacement.
 
@@ -70,6 +70,14 @@ Optional
 Type: Object
 
 Inline source of data for variable replacement
+
+#### options.variablePattern
+Optional
+Type: String or RegExp
+
+The [Regular Expresssion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) used to match variables.
+The first group must be the variable path.
+Defaults to `/%([\w._-]+)%/g`
 
 #### options.loglevel
 Optional
