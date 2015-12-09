@@ -6,7 +6,7 @@ process.chdir(__dirname);
 
 variableReplacer({
     source: 'input.txt',
-    loglevel: 'debug',
+    logLevel: 'debug',
     dest: 'output.txt',
     dataSource: 'data.json',
     inlineData: {
