@@ -27,7 +27,7 @@ variable-replacer sourcepath1 [sourcepath2 sourcepath3] destpath --data=datasour
 ##### Node JS
 
 ```shell
-npm install innosetup-compiler
+npm install variable-replacer
 ```
 
 ```javascript
