@@ -1,0 +1,2 @@
+the value of var1 variable is: %var1%
+the value of the key1 attr of var2 is %var2.key1%
